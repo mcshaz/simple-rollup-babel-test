@@ -19,7 +19,7 @@ export default {
   ],
   plugins: [
     babel({
-      // babelrc: false,
+      babelrc: false,
       include: `*.js`,
       exclude: `node_modules/**`,
       presets: [[ '@babel/preset-env',
