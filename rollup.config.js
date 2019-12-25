@@ -1,7 +1,7 @@
 import babel from 'rollup-plugin-babel';
 import 'core-js';
 import resolve from '@rollup/plugin-node-resolve';
- import commonjs from '@rollup/plugin-commonjs';
+import commonjs from '@rollup/plugin-commonjs';
 
 export default {
   input: 'input.js',
@@ -26,7 +26,7 @@ export default {
         {
           modules: false,
           useBuiltIns: 'usage',
-          targets: { ie: "8" },
+          targets: { ie: "8" },  // bulds targeting ie >= 9, not ie 8
           corejs: 3,
         }]],
     }),
