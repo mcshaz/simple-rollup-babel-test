@@ -1,6 +1,6 @@
 {
   "name": "simple-rollup-babel-test",
-  "version": "5.2.0",
+  "version": "0.0.1",
   "description": "test rollup babel build",
   "main": "main.dist.js",
   "scripts": {
@@ -16,8 +16,7 @@
   },
   "bugs": "git://github.com/mcshaz/simple-rollup-babel-test.git/issues",
   "keywords": [
-    "rollup-babel",
-    "//requires a peer of @babel/core@^7.0.0-0"
+    "rollup-babel"
   ],
   "analyze": true,
   "license": "MIT",
